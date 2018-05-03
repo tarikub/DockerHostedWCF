@@ -9,7 +9,7 @@ A downlodable sample code for WCF services that are hosted on Docker. Inspired b
 - [Install Docker CE](https://www.docker.com/community-edition#/windows)
 - Switch containers to Windows 
 - Run "docker pull microsoft/windowsservercore"
-- Cone this git hub repo
+- Clone this git hub repo
 - Build the solution `DockerHostedWCF` (this will copy all the files needed for the Docker in `Publish\Bin` folder)
 - From "Publish" folder using cmd run [docker build -t wcfhost:latest -t wcfhost:1 .]
 
